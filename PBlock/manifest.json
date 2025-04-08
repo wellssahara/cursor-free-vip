@@ -1,0 +1,29 @@
+{
+  "name": "PBlock",
+  "version": "0.1",
+  "manifest_version": 3,
+  "author": "wellssahara",
+  "url": "https://github.com/wellssahara/PBlock",
+  "description": "Just a simple blocker.",
+  "action": {
+    "default_icon": "enabled48.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+     "16": "enabled16.png",
+     "48": "enabled48.png"
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "storage",
+    "privacy"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*",
+    "ws://*/*", 
+    "wss://*/*"
+  ]
+}
