@@ -26,10 +26,6 @@ Always clean your browser's cache and cookies. If possible, use a VPN to create 
 
 這是一個自動化工具，自動註冊，支持 Windows 和 macOS 系統，完成 Auth 驗證，重置 Cursor 的配置。
 
-<p align="center">
-  <img src="./images/pro_2025-04-05_18-47-56.png" alt="new" width="800" style="border-radius: 6px;"/><br>
-</p>
-
 ##### If you don't have Google Chrome, you can download it from [here](https://www.google.com/intl/en_pk/chrome/)
 
 ##### 如果沒有 Google Chrome，可以從[這裡](https://www.google.com/intl/en_pk/chrome/)下載
@@ -74,13 +70,13 @@ Always clean your browser's cache and cookies. If possible, use a VPN to create 
 **Linux/macOS**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/wellssahara/cursor-free-vip/main/scripts/install.sh -o install.sh && chmod +x install.sh && ./install.sh
+curl -fsSL https://github.com/wellssahara/cursor-free-vip/blob/main/scripts/install.sh -o install.sh && chmod +x install.sh && ./install.sh
 ```
 
 **Windows**
 
 ```powershell
-irm https://raw.githubusercontent.com/wellssahara/cursor-free-vip/main/scripts/install.ps1 | iex
+irm https://github.com/wellssahara/cursor-free-vip/blob/main/scripts/install.ps1 | iex
 ```
 
 </details>
@@ -201,30 +197,4 @@ show_account_info = True
 This tool is only for learning and research purposes, and any consequences arising from the use of this tool are borne
 by the user.
 
-## 💰 Buy Me a Coffee | 請我喝杯咖啡
 
-<div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="./images/provi-code.jpg" alt="buy_me_a_coffee" width="280"/><br>
-      </td>
-      <td>
-        <img src="./images/paypal.png" alt="buy_me_a_coffee" width="280"/><br>
-      </td>
-    </tr>
-  </table>
-</div>
-
-## ⭐ Star History | 星星數
-
-<div align="center">
-
-[![Star History Chart](https://api.star-history.com/svg?repos=wellssahara/cursor-free-vip&type=Date)](https://star-history.com/#wellssahara/cursor-free-vip&Date)
-
-</div>
-
-## 📝 License | 授權
-
-本項目採用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 授權。
-Please refer to the [LICENSE](LICENSE.md) file for details.
